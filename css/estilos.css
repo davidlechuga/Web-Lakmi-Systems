@@ -1,0 +1,42 @@
+/* Estilos de prueba */
+
+.header-1 {
+    background: #f2f2f2;
+    height: 15%;
+}
+.contenedor-logo-navbar {
+    padding: 20px 0;
+}
+.contenedor-banner {
+    overflow: hidden;
+    height: 500px;
+    position: relative;
+}
+.copy-1 {
+    position: absolute;
+}
+
+
+
+.main-1{
+    margin-top: 10px;
+}
+.titulo-especialidades {
+    background: #f2f2f2;
+    padding: 10px;
+}
+
+
+
+
+.footer-1{
+    margin-top: 50px;
+    height: 100px;
+    background: black;
+}
+.contenedor-copyright{
+    height: 100px;
+}
+.copyright-1 {
+    color: #f2f2f2;
+}
