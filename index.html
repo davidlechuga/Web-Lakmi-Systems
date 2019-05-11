@@ -5,21 +5,147 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="/css/estilos.css">
         <title>Lakmi Systems</title>
     </head>
     <body>
+        <!-- HOME -->
 
         
-        <header>
-    
+        <header class="header-1" id="header-1">
+            <div class="container">
+                <!-- LOGO Y BARRA DE NAVEGACIÓN -->
+                <div class="row align-items-center justify-content-between contenedor-logo-navbar">
+                    <div class="col-3">
+                        <img class="img-fluid logo-principal" src="/public/images/logo.svg" alt="">
+                    </div>
+                    
+                    <nav class="col-9">
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Beneficios</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Administración Empresarial de Riesgos</a>
+                                    <a class="dropdown-item" href="#">Control Interno Eficiente</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Contacto</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- BANNER PRINCIPAL -->
+                <div class="row align-items-center">
+                    <div class="col-12 contenedor-banner">
+                        <img class="img-fluid img-banner" src="/public/images/Contemporaneo.jpg" alt="">
+                    </div>
+                    <div class="col-6 copy-1">
+                        Nuestro propósito es ayudar a nuestros clientes a crear, proteger y mejorar el valor que ofrecen a sus inversionistas y a otras partes interesadas
+                    </div>
+                </div>
+            </div>
         </header>
 
-        <main>
+        <main class="main-1">
+            <div class="container">
+                <!-- SECCION "QUE TE OFRECEMOS?" -->
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <img class="img-fluid" src="/public/images/boligrafo-cafe.jpg" alt="">
+                    </div>
+                    <div class="col-8">
+                        <h2>¿Qué te ofrecemos?</h2>
+                        <p>Soluciones y servicios con un enfoque basado en la integración de la administración de riesgos con la estrategia y el desempeño de cada uno de nuestros clientes.</p>
+                    </div>
+                </div>
 
+                <!-- SECCION "TE ASESORAMOS EN LAS SIGUIENTES AREAS" -->
+                <div class="row mt-5 align-items-center justify-content-center">
+                    <div class="col-12 mb-4">
+                        <h2 class="text-center">Te asesoramos en las siguientes areas</h2>
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid img-especializada rounded-circle" src="/public/images/lap-con.jpg" alt="">
+                        <h3 class="text-center mt-3 titulo-especialidades">Contable</h3>
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid img-especializada rounded-circle" src="/public/images/lap-con.jpg" alt="">
+                        <h3 class="text-center mt-3 titulo-especialidades">Sistemas y Tecnologias de la Información</h3>
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid img-especializada rounded-circle" src="/public/images/lap-con.jpg" alt="">
+                        <h3 class="text-center mt-3 titulo-especialidades">Administración y Finanzas</h3>
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid img-especializada rounded-circle" src="/public/images/lap-con.jpg" alt="">
+                        <h3 class="text-center mt-3 titulo-especialidades">Recursos Humanos</h3>
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid img-especializada rounded-circle" src="/public/images/lap-con.jpg" alt="">
+                        <h3 class="text-center mt-3 titulo-especialidades">Tesorería</h3>
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid img-especializada rounded-circle" src="/public/images/lap-con.jpg" alt="">
+                        <h3 class="text-center mt-3 titulo-especialidades">Legal</h3>
+                    </div>
+                    <div class="col-6 mt-4">
+                        <button type="button" class="btn btn-secondary btn-lg btn-block">Consultar lista completa de Servicios</button>
+                    </div>
+                </div>
+
+                <!-- SECCION "LO QUE OBTIENES" -->
+                <div class="row mt-5 justify-content-between">
+                    <div class="col-12 mb-4">
+                        <h2 class="text-center">Lo que obtienes...</h2>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <img src="/public/images/analisis.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Beneficios de la Administración de Riesgos</h5>
+                                <a href="#" class="btn btn-primary">Conoce más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <img src="/public/images/analisis.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Beneficios de Control Interno Efectivo</h5>
+                                <a href="#" class="btn btn-primary">Conoce más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <img src="/public/images/analisis.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Conoce lo que incluyen nuestros Servicios</h5>
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
 
-        <footer>
+        <footer class="footer-1">
+            <div class="container">
+                <div class="row align-items-center contenedor-copyright">
+                    <div class="col-6 copyright-1">
+                        &copy;2019 Lakmi Systems, S.A.S de C.V.
+                    </div>
+                    <div class="col-6"></div>
+                </div>
+            </div>
 
         </footer>
 
@@ -29,6 +155,6 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script src="js/scripts.js"></script>
+        <script src="/js/scripts.js"></script>
     </body>
 </html>
